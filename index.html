@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+
+<div id="welcome-message" class="welcome-message">
+    <p>Vous avez 30sec pour me contacter !</p>
+    <button class="close-btn" onclick="closeWelcomeMessage()">&#10005;</button>
+</div>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portolio - Fantine Latreille</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Liens des polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap">
+
+    <!-- Liens des icônes -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="icon" href="Favicon-logo.png" type="image/png">
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="script.js" defer></script>
+
+    <title>Compte à Rebours</title>
+</head>
+
+<body>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte à Rebours</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- Cercle du compte à rebours -->
+        <div id="countdown-circle">
+            <span id="countdown-number">30</span>
+        </div>
+
+    </body>
+
+    </head>
+
+    <body>
+
+        <!---nav menu--->
+
+        <div class="container">
+            <nav id="header">
+                <div class="nav-logo">
+                    <a href="#Pagedaccueil">
+                        <img src="Logo.png" alt="Logo" class="logo-img">
+                    </a>
+                </div>
+                <div class="nav-menu" id="myNavMenu">
+                    <ul class="nav_menu_list">
+                        <li class="nav_list">
+                            <a href="#Pagedaccueil" class="nav-link active-link">Page d'accueil</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#Parcoursscolaire" class="nav-link">Parcours scolaire</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#Compétences" class="nav-link">Compétences</a>
+                        </li>
+                        <!-- Menu déroulant pour Projets -->
+                        <li class="nav_list dropdown">
+                            <a href="#Projetsprofessionnels" class="nav-link">Projets</a> <!-- Rendre "Projets" cliquable -->
+                            <ul class="dropdown-menu">
+                                <li><a href="#Projetsprofessionnels" class="nav-link">Projets professionnels</a></li>
+                                <li><a href="#Projetsscolaires" class="nav-link">Projets scolaires</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#Àproposdemoi" class="nav-link">À propos de moi</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#Contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-menu-btn">
+                    <i class=" uil uil-bars" onclick="myMenuFunction()"></i>
+                </div>
+            </nav>
+        </div>
+        
+        
+
+            <!--Page d'accueil-->
+
+            <main class="wrapper">                
+                <section class="section1" id="Pagedaccueil">
+                    <div class="featured-text">
+                        <!-- Supprimer la div 'Bonjour' et ne garder que l'animation -->
+                        <div class="featured-name">
+                            <!-- Texte avec l'effet de frappe -->
+                            <span class="typedText"></span>
+                        </div>
+                        <div class="text-info">
+                            <p>Fantine Latreille, diplômée en design numérique du DNMADE (Diplôme National des Métiers d'Art et du Design) à l'École de Design Nantes Atlantique. Passionnée par le digital et l'innovation, je suis à la recherche d'un stage dès que possible et d'une alternance à partir de septembre 2025.</p>
+                        </div>
+                        <div class="text-btn">
+                            <a href="#Contact" class="Embaucher">Contactez-moi</a>
+                            <a href="CV-Fantine-LATREILLE.pdf" class="btn btn1" download target="_blank">Télécharger mon
+                                CV <i class="uil uil-file"></i></a>
+                        </div>
+                        <div class="social_icons">
+                            <div class="icon_circle"></div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/fantine-latreille-09894121b/" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.instagram.com/fantine_projets?igsh=MXZmN203ZjZ6eWI4MA%3D%3D&utm_source=qr"
+                                    target="_blank">
+                                    <i class="uil uil-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-image">
+                        <div class="image">
+                            <img src="Fantine-Latreille.png" alt="">
+                        </div>
+                    </div>
+
+                </section>  
+                
+
+                <!---Parcours--->
+
+                <section class="section" id="Parcoursscolaire">
+                            <div class="top-header">
+                                <h1>Parcours scolaire</h1></div>
+                                <!-- Ligne de fil conducteur -->
+                        <div class="fil-conducteur" id="fil-conducteur"></div>
+                    </div>
+                        <div class="row-bloc">
+                            
+                            <div class="bloc" id="bloc-1">
+                                <div class="carte">
+                                  <!-- Recto de la carte -->
+                                  <div class="recto">
+                                    <img src="logo-edna.png" alt="Logo EDNA" class="Profil">
+                                    <h3>DN MADE Numérique (3 ans)</h3>
+                                  </div>
+                                  <!-- Verso de la carte -->
+                                  <div class="verso">
+                                    <p>J'ai obtenu mon diplôme de DN MADE mineure graphisme en Juin 2024, à l'École de Design Nantes Atlantique.</p>
+                                    <a href="https://lecolededesign.com/fr/formations/jintegre-une-formation-post-bac/dn-made-bac-3/dn-made-numerique-nantes" class="Informations About-me-btn" target="_blank">En savoir plus</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="bloc" id="bloc-2">
+                                <div class="carte">
+                                  <!-- Recto de la carte -->
+                                  <div class="recto">
+                                    <img src="logo-edna.png" alt="Logo EDNA" class="Profil">
+                                    <h3>Développement professionnel (1 an)</h3>
+                                  </div>
+                                  <!-- Verso de la carte -->
+                                  <div class="verso">
+                                    <p>J'ai choisi de faire 1 an de césure cette année pour améliorer mon expérience professionnelle à travers des stages.</p>
+                                    <span class="Informations About-me-btn2">Lire en dessous</span>
+                                </div>                                
+                                </div>
+                              </div>
+                              <div class="bloc" id="bloc-3">
+                                <div class="carte">
+                                  <!-- Recto de la carte -->
+                                  <div class="recto">
+                                    <img src="logo-edna.png" alt="Logo EDNA" class="Profil">
+                                    <h3>Master Digital Design (2 ans)</h3>
+                                  </div>
+                                  <!-- Verso de la carte -->
+                                  <div class="verso">
+                                    <p>En septembre 2025, j'intègrerai le cycle master Digital Design en alternance à l'École de Design Nantes Atlantique.</p>
+                                    <a href="https://lecolededesign.com/fr/formations/rejoindre-une-formation-apres-des-etudes-en-design/diplome-de-design-bac-5/cycle-1" class="Informations About-me-btn" target="_blank">En savoir plus</a>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <section class="timeline-section">
+                            <h2>Résumé de mon année 2024-2025</h2>
+                            <div class="timeline">
+                                <!-- Début de l'expérience -->
+                                <div class="timeline-point" data-title="Septembre 2024" data-description="Début de mon expérience">
+                                    <div class="timeline-date">Septembre 2024</div>
+                                    <div class="timeline-tooltip">
+                                        <h3 class="tooltip-title">Début de stage</h3>
+                                        <p class="tooltip-description">Début de mon expérience professionnelle chez Protecad</p>
+                                    </div>
+                                </div>
+                                <!-- Milieu du parcours -->
+                                <div class="timeline-point" data-title="Février 2025" data-description="Clôture de mon stage">
+                                    <div class="timeline-date">Février 2025</div>
+                                    <div class="timeline-tooltip">
+                                        <h3 class="tooltip-title">Fin de stage</h3>
+                                        <p class="tooltip-description">Fin de mon expérience professionnelle chez Protecad</p>
+                                    </div>
+                                </div>
+                                <!-- Nouveaux horizons -->
+                                <div class="timeline-point" data-title="Mars 2025" data-description="Disponible pour de nouvelles opportunités">
+                                    <div class="timeline-date">Mars 2025</div>
+                                    <div class="timeline-tooltip">
+                                        <h3 class="tooltip-title">Début de stage</h3>
+                                        <p class="tooltip-description">En recherche active d'une nouvelle opportunité</p>
+                                    </div>
+                                </div>
+                                <!-- Objectif futur -->
+                                <div class="timeline-point" data-title="Septembre 2025" data-description="À la recherche d'une alternance">
+                                    <div class="timeline-date">Septembre 2025</div>
+                                    <div class="timeline-tooltip">
+                                        <h3 class="tooltip-title">Début d'alternance</h3>
+                                        <p class="tooltip-description">En recherche de ma future alternance dans le cadre du master</p>
+                                    </div>
+                                </div>
+                            </div>                                                       
+                        </section>                            
+                </section>
+
+                <!---Domaines de compétences--->
+                <section class="section" id="Compétences">
+                    <div class="top-header">
+                        <h1>Mes domaines de compétences</h1>
+                    </div>
+                    <div class="logo-carousel">
+                        <div class="logo-track">
+                            <img src="Figma.png" alt="Logo 1" class="logo">
+                            <img src="Illustrator.png" alt="Logo 2" class="logo">
+                            <img src="Photoshop.png" alt="Logo 3" class="logo">
+                            <img src="Indesign.png" alt="Logo 4" class="logo">
+                            <img src="After-Effect.png" alt="Logo 5" class="logo">
+                            <img src="Wordpress.png" alt="Logo 6" class="logo">
+                            <img src="Javascript.png" alt="Logo 6" class="logo">
+                            <img src="Asana.png" alt="Logo 7" class="logo">
+                            <img src="Notion.png" alt="Logo 8" class="logo">
+                            <img src="Slack.png" alt="Logo 9" class="logo">
+                            <img src="Atlassian.png" alt="Logo 10" class="logo">
+                            <img src="Capcut.png" alt="Logo 11" class="logo">
+                            <img src="Tiktok.png" alt="Logo 12" class="logo">
+                            <img src="Blender.png" alt="Logo 13" class="logo">
+                            <img src="WebGL.png" alt="Logo 13" class="logo">
+
+                            <img src="Figma.png" alt="Logo 1" class="logo">
+                            <img src="Illustrator.png" alt="Logo 2" class="logo">
+                            <img src="Photoshop.png" alt="Logo 3" class="logo">
+                            <img src="Indesign.png" alt="Logo 4" class="logo">
+                            <img src="After-Effect.png" alt="Logo 5" class="logo">
+                            <img src="Wordpress.png" alt="Logo 6" class="logo">
+                            <img src="Javascript.png" alt="Logo 6" class="logo">
+                            <img src="Asana.png" alt="Logo 7" class="logo">
+                            <img src="Notion.png" alt="Logo 8" class="logo">
+                            <img src="Slack.png" alt="Logo 9" class="logo">
+                            <img src="Atlassian.png" alt="Logo 10" class="logo">
+                            <img src="Capcut.png" alt="Logo 11" class="logo">
+                            <img src="Tiktok.png" alt="Logo 12" class="logo">
+                            <img src="Blender.png" alt="Logo 13" class="logo">
+                            <img src="WebGL.png" alt="Logo 13" class="logo">
+                        </div>
+                    </div>
+                </section>
+
+
+                <!---Projets professionnels--->
+
+                <!-- Section des projets professionnels -->
+                <section class="section" id="Projetsprofessionnels">
+                    <div class="top-header">
+                        <h1>Mes projets professionnels</h1>
+                    </div>
+                    <div class="project-grid">
+                
+                        <!-- Projet 1 -->
+                        <a href="projet1.html#Protecad" class="project-item">
+                            <img src="Couverture-Protecad-1.png" alt="Projet 1">
+                            <div class="overlay">
+                                <h3>Stage de 6 mois
+                                    <br>09/2024 - 02/2025</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 2 -->
+                        <a href="projet1.html#v6Protect" class="project-item">
+                            <img src="Couverture-v6Protect-1.png" alt="Projet 2">
+                            <div class="overlay">
+                                <h3>Alternance d'1an
+                                    <br>09/2023 - 07/2024</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 3 -->
+                        <a href="projet1.html#Soan" class="project-item">
+                            <img src="Couverture-Soan-1.png" alt="Projet 3">
+                            <div class="overlay">
+                                <h3>Stage de 3 mois
+                                    <br>02/2023 - 05/2023</h3>
+                            </div>
+                        </a>
+                
+                    </div>
+                </section>  
+
+                <!---Projets--->
+
+                <!-- Section des projets scolaires -->
+                <section class="section" id="Projetsscolaires">
+                    <div class="top-header">
+                        <h1>Mes projets scolaires</h1>
+                    </div>
+                    <div class="project-grid">
+                
+                        <!-- Projet 1 -->
+                
+                        <!-- Projet 2 -->
+                
+                        <!-- Projet 3 -->
+                        <a href="projet1.html#Affiche" class="project-item">
+                            <img src="Couverture-FMMP-1.png" alt="Projet 3">
+                            <div class="overlay">
+                                <h3>Affiche numérique</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 4 -->
+                        <a href="projet1.html#Tetris" class="project-item">
+                            <img src="Couverture-Tetris-1.png" alt="Projet 4">
+                            <div class="overlay">
+                                <h3>Prospectus mobile</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 5 -->
+                        <a href="projet1.html#Kikk" class="project-item">
+                            <img src="Couverture-kikk-1.png" alt="Projet 5">
+                            <div class="overlay">
+                                <h3>Identité visuelle</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 6 -->
+                        <a href="projet1.html#Azymute" class="project-item">
+                            <img src="Couverture-Azymute-1.png" alt="Projet 6">
+                            <div class="overlay">
+                                <h3>Identité visuelle</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 7 -->
+                        <a href="projet1.html#Vinyle" class="project-item">
+                            <img src="Couverture-Vinyle-1.png" alt="Projet 7">
+                            <div class="overlay">
+                                <h3>Graphisme</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 8 -->
+                        <a href="projet1.html#Motion" class="project-item">
+                            <img src="Couverture-Animations-1.png" alt="Projet 8">
+                            <div class="overlay">
+                                <h3>Motion design</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 9 -->
+                        <a href="projet1.html#NU" class="project-item">
+                            <img src="Couverture-NU-1.png" alt="Projet 9">
+                            <div class="overlay">
+                                <h3>Interface web</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 10 -->
+                        <a href="projet1.html#Danse" class="project-item">
+                            <img src="Couverture-Danse-1.png" alt="Projet 10">
+                            <div class="overlay">
+                                <h3>Animation graphique</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 11 -->
+                        <a href="projet1.html#Musique" class="project-item">
+                            <img src="Couverture-Musique-1.png" alt="Projet 11">
+                            <div class="overlay">
+                                <h3>Musique</h3>
+                            </div>
+                        </a>
+                
+                        <!-- Projet 12 -->
+                        <a href="projet1.html#Architecture" class="project-item">
+                            <img src="Couverture-Architecture-1.png" alt="Projet 12">
+                            <div class="overlay">
+                                <h3>Conception de plans 3D</h3>
+                            </div>
+                        </a>
+
+                        <!-- Projet 13 -->
+                        <a href="projet1.html#Memoire" class="project-item">
+                            <img src="Couverture-Memoire-1.png" alt="Projet 13">
+                            <div class="overlay">
+                                <h3>Mémoire de fin d'étude</h3>
+                            </div>
+                        </a>
+                
+                    </div>
+                </section> 
+                
+                <!---À propos de moi--->
+                <section class="section" id="Àproposdemoi">
+                    <div class="top-header">
+                        <h1>À propos de moi</h1>
+                    </div>
+                <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos de moi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <p>Présente sur les réseaux sociaux, notamment TikTok et Instagram, j'ai eu l'opportunité de collaborer avec diverses marques, couvrant des secteurs variés tels que la bijouterie, la mode, les soins de la peau, le maquillage, ainsi que lors d'événements et de shootings photos.
+        </p>
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Compteurs Abonnés</title>
+              <link rel="stylesheet" href="style.css">
+            </head>
+            <body>
+              <div class="container">
+            
+                <!-- Compteur Instagram -->
+                <div class="counter">
+                  <div class="account">
+                    <img src="Logo-instagram-abo-counter.png" alt="Instagram Logo">
+                    <a href="https://www.instagram.com/fantinelatreille/" target="_blank">
+                      <span>@fantinelatreille</span>
+                    </a>
+                  </div>
+                  <div class="count" id="instagramCount">0</div>
+                </div>
+            
+                <!-- Compteur TikTok -->
+                <div class="counter">
+                  <div class="account">
+                    <img src="Logo-tiktok-abo-counter.png" alt="TikTok Logo">
+                    <a href="https://www.tiktok.com/@fantinelatreille" target="_blank">
+                      <span>@fantinelatreille</span>
+                    </a>
+                  </div>
+                  <div class="count" id="tiktokCount">0</div>
+                </div>
+              </div>
+            
+              <script src="script.js"></script>
+            </body>
+            </html>
+            
+
+
+<!-- Images qui défilent -->
+        
+        <!-- Première rangée -->
+        <h2 class="slider-title-collab">Vêtements</h2>
+        <div class="row-1">
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKbxDxr/" target="_blank">
+              <img src="Collab-subdued.jpg" alt="Collab-subdued" class="main-image">
+            </a>
+            <img src="Logo-collab-subdued.png" alt="logo-subdued" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKb6JvS/" target="_blank">
+              <img src="Collab-kymas.jpg" alt="Collab-kymas" class="main-image">
+            </a>
+            <img src="Logo-collab-kymas.png" alt="logo-kymas" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKx4uXf/" target="_blank">
+              <img src="Collab-kouka.jpg" alt="Collab-kouka" class="main-image">
+            </a>
+            <img src="Logo-collab-kouka.png" alt="logo-kouka" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKxCWjq/" target="_blank">
+              <img src="Collab-subdued-2.jpg" alt="Collab-subdued-2" class="main-image">
+            </a>
+            <img src="Logo-collab-subdued.png" alt="logo-subdued" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://www.tiktok.com/@addictedtonicethings" target="_blank">
+              <img src="Collab-ATNT.jpg" alt="Collab-ATNT" class="main-image">
+            </a>
+            <img src="Logo-ATNT.png" alt="logo-ATNT" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKxURdX/" target="_blank">
+              <img src="Collab-maison-de-monaco.jpg" alt="Collab-maison-de-monaco" class="main-image">
+            </a>
+            <img src="Logo-collab-maison-de-monaco.png" alt="logo-maison-de-monaco" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKxXCER/" target="_blank">
+              <img src="Collab-ava-be.jpg" alt="Collab-ava-be" class="main-image">
+            </a>
+            <img src="Logo-collab-ava-be.png" alt="logo-ava-be" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKxQAEk/" target="_blank">
+              <img src="Collab-sisters-bay.jpg" alt="Collab-sisters-bay" class="main-image">
+            </a>
+            <img src="Logo-collab-sisters-bay.png" alt="logo-sisters-bay" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKxkbVV/" target="_blank">
+              <img src="Collab-brownie.jpg" alt="Collab-brownie" class="main-image">
+            </a>
+            <img src="Logo-collab-brownie.png" alt="logo-brownie" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKb2EH2/" target="_blank">
+              <img src="Collab-kymas-2.jpg" alt="Collab-kymas-2" class="main-image">
+            </a>
+            <img src="Logo-collab-kymas.png" alt="logo-kymas" class="brand-logo">
+          </div>
+          <div class="slide">
+            <a href="https://vm.tiktok.com/ZNeKx4tUj/" target="_blank">
+              <img src="Collab-amiestore.jpg" alt="Collab-amiestore" class="main-image">
+            </a>
+            <img src="Logo-collab-amiestore.png" alt="logo-amiestore" class="brand-logo">
+          </div>
+        </div>
+
+      
+        <!-- Deuxième rangée -->
+        <h2 class="slider-title-collab">Produits & accessoires</h2>
+        <div class="row-2">
+            <div class="slide">
+                <a href="https://vm.tiktok.com/ZNeKx4FVq/" target="_blank">
+                    <img src="Collab-laulie.jpg" alt="Collab-laulie" class="main-image">
+                </a>
+                <img src="Logo-collab-laulie.png" alt="logo-collab-laulie" class="brand-logo">
+            </div>
+            <div class="slide">
+                <a href="https://vm.tiktok.com/ZNeKxhsFu/" target="_blank">
+                    <img src="Collab-juici.jpg" alt="Collab-juici" class="main-image">
+                </a>
+                <img src="Logo-collab-juici.png" alt="Logo Marque 2" class="brand-logo">
+            </div>
+            <div class="slide">
+                <!-- Pas de lien, donc l'image n'est pas cliquable -->
+                <img src="Collab-bloom.jpg" alt="Collab-bloom" class="main-image">
+                <img src="Logo-collab-bloom.png" alt="logo-bloom" class="brand-logo">
+            </div>
+            <div class="slide">
+                <!-- Pas de lien, donc l'image n'est pas cliquable -->
+                <img src="Collab-milk.jpg" alt="Collab-milk" class="main-image">
+                <img src="Logo-collab-milk.png" alt="logo-milk" class="brand-logo">
+            </div>
+            <div class="slide">
+                <!-- Pas de lien, donc l'image n'est pas cliquable -->
+                <img src="Collab-dr-jart.jpg" alt="Collab-dr-jart" class="main-image">
+                <img src="Logo-collab-dr-jart.png" alt="logo-dr-jart" class="brand-logo">
+            </div>
+            <div class="slide">
+                <!-- Pas de lien, donc l'image n'est pas cliquable -->
+                <img src="Collab-KVD.jpg" alt="Collab-KVD" class="main-image">
+                <img src="Logo-collab-KVD.png" alt="logo-KVD" class="brand-logo">
+            </div>
+            <div class="slide">
+                <!-- Pas de lien, donc l'image n'est pas cliquable -->
+                <img src="Collab-benefit.jpg" alt="Collab-benefit" class="main-image">
+                <img src="Logo-collab-benefit.png" alt="logo-benefit" class="brand-logo">
+            </div>
+            <div class="slide">
+                <a href="https://vm.tiktok.com/ZNeKbyf2B/" target="_blank">
+                    <img src="Collab-typology.jpg" alt="Collab-typology" class="main-image">
+                </a>
+                <img src="Logo-collab-typology.png" alt="logo-typology" class="brand-logo">
+            </div>
+            <div class="slide">
+                <!-- Pas de lien, donc l'image n'est pas cliquable -->
+                <img src="Collab-Giorgio-Armani.jpg" alt="Collab-typology" class="main-image">
+                <img src="Logo-collab-giorgio-armani.png" alt="logo-giorgio-armani" class="brand-logo">
+            </div>            
+        </div>
+        
+        <section class="dark-blue-section">
+            <div class="container-ab">
+                <!-- Titre et texte à gauche -->
+                <div class="content-left-a">
+                    <h2>Ce que ça m'a apporté</h2>
+                    <p>Les collaborations m'ont permis de progresser sur plusieurs aspects. Voici les principaux :</p>
+                </div>
+                <!-- Blocs à droite -->
+                <div class="content-right-a">
+                    <div class="block">
+                        <div class="icon"><img src="icon-communication.png" alt="Communication Logo"></div>
+                        <h3>Communication digitale</h3>
+                        <p>J’ai un sens aiguisé de la communication sur les réseaux sociaux, créant un contenu engageant et adapté pour maximiser l’impact des campagnes sur Instagram et TikTok.</p>
+                        </div>
+                    <div class="block">
+                        <div class="icon"><img src="icon-creative.png" alt="Creative Logo"></div>
+                        <h3>Adaptabilité et créativité</h3>
+                        <p>Chaque projet unique m’a permis d’adapter mon style, de proposer des solutions créatives et innovantes et d’élargir ma vision pour répondre aux attentes spécifiques et variées des clients.</p>
+                    </div>
+                    <div class="block">
+                        <div class="icon"><img src="icon-gestion.png" alt="Gestion Logo"></div>
+                        <h3>Gestion et relation client</h3>
+                        <p>Collaborer avec des marques m’a appris à gérer des projets, respecter les délais, travailler en équipe et répondre aux attentes clients tout en garantissant la qualité.</p>
+                    </div>
+                    <div class="block">
+                        <div class="icon"><img src="icon-motivation.png" alt="Motivation Logo"></div>
+                        <h3>Satisfaction et motivation</h3>
+                        <p>Voir mes projets se concrétiser et aider les marques à atteindre leurs objectifs me motive à explorer de nouvelles idées et à améliorer constamment mes compétences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    
+        
+
+                <!---Contact--->
+                <section class="section" id="Contact">
+                    <div class="row">
+                        <div class="contact-info">
+                            <h2>Mon profil vous intéresse ? Contactez-moi ici <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>Mail : fantine.latreille@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Téléphone : 06 63 64 18 32</p>
+                            <!-- Ajout de l'image de l'avion en papier -->
+                            <img src="paper-plane.png" alt="Avion en papier" class="paper-plane">
+                        </div>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/fantine-latreille-09894121b/" target="_blank">
+                          <img src="logo-linkedin-contact.png" alt="LinkedIn">
+                        </a>
+                        <a href="https://www.tiktok.com/@fantinelatreille" target="_blank">
+                          <img src="logo-tiktok-contact.png" alt="TikTok">
+                        </a>
+                        <a href="https://www.instagram.com/fantine_projets/" target="_blank">
+                          <img src="logo-instagram-contact.png" alt="Instagram">
+                        </a>
+                        <a href="mailto:fantine.latreille@gmail.com">
+                          <img src="logo-mail-contact.png" alt="Email">
+                        </a>
+                        <a href="tel:+33663641832">
+                          <img src="logo-téléphone-contact.png" alt="Phone">
+                        </a>
+                      </div>
+                </section>                
+        </main>
+
+            <div class="back-to-top">
+                <a href="#Pagedaccueil">Revenir en haut</a>
+            </div>
+            <footer>
+
+            <!---Footer--->
+            <footer>
+                <div class="bottom-footer">
+                    <p>Copyright &copy; <a href="#Pagedaccueil" style="text-decoration: none"></a> - Conception et réalisation du site internet : entièrement imaginé, codé et développé par mes soins - Tous droits réservés</p>
+                    <p>Téléphone : 06 63 64 18 32 - Mail : fantine.latreille@gmail.com</p>
+                    </p>
+                </div>
+            </footer>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umb.js"></script>
+        <script src="script.js"></script>
+
+        
+     
+        
+    </body>
+
+</html>
