@@ -54,6 +54,74 @@
 
     <body>
 
+
+        <!---Message acessibilité sur mobile--->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <style>
+    /* Message d'alerte */
+    #mobile-message {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      color: black;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      z-index: 1001; /* Au-dessus du fond blanc */
+      width: 80%;
+      max-width: 400px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Fond blanc opaque pour cacher le contenu */
+    #overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      z-index: 1000; /* Derrière le message mais devant le site */
+    }
+  </style>
+</head>
+<body>
+  <!-- Fond blanc -->
+  <div id="overlay"></div>
+
+  <!-- Message d'alerte -->
+  <div id="mobile-message">
+    Ce site n'est pas optimisé pour la version mobile.  
+    Veuillez y accéder depuis un ordinateur.  
+  </div>
+
+  <!-- Script pour afficher le message uniquement sur mobile -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Fonction pour détecter les appareils mobiles
+      function isMobile() {
+        return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      }
+
+      // Afficher le message et le fond blanc si l'utilisateur est sur mobile
+      if (isMobile()) {
+        document.getElementById("mobile-message").style.display = "block";
+        document.getElementById("overlay").style.display = "block";
+      }
+    });
+  </script>
+</body>
+</html>
+        
         <!---nav menu--->
 
         <div class="container">
